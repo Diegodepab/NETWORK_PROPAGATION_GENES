@@ -22,7 +22,7 @@ Este proyecto incluye código modificado del repositorio [DIAMOnD](https://githu
 
 Para aplicar DIAMOnD se necesitarán los siguientes puntos definidos previamente:
 
-1. **network_file** (archivo de red): Este archivo contiene una lista de interacciones entre genes (o nodos de una red). Se espera que esté en formato de lista de aristas (edgelist), donde cada fila tiene dos columnas que representan una interacción entre dos genes (gene1 y gene2).
+1. **network_file** (archivo de red): Este archivo contiene una lista de interacciones entre genes (o nodos de una red). Se espera que esté en formato de lista de aristas (edgelist), donde cada fila tiene dos columnas que representan una interacción entre dos genes (gene1 y gene2). **Por la forma en que esta el trabajo, este es el único archivo que debe ser subido por el usuario**
 
 2. **seed_file** (archivo de genes semilla): Este archivo contiene una lista de genes "semilla", que son los genes iniciales alrededor de los cuales se expandirá la red utilizando DIAMOnD. Para este trabajo se implementó un código capaz de crear un `seed_file` automáticamente basado en el `network_file`.
 
