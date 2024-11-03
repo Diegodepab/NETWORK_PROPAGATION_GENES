@@ -1,0 +1,8 @@
+Este archivo de Jupyter Notebook explica teóricamente cómo implementar el algoritmo DIAMOnD (Disease Module Detection), con algunas consideraciones prácticas para su aplicación en redes de genes. Luego, presenta un ejemplo en el que se usan tres genes iniciales (ENO1, PGK1 y HK2) para identificar los 30 genes con mayor interacción. Para esto, se emplean datos de interacciones proteicas obtenidos de la base de datos STRING.
+
+En cuanto a los paquetes de Python, el documento utiliza principalmente:
+
+Pandas: para manejar y manipular datos tabulares.
+NetworkX: para construir y analizar la red de interacciones.
+NumPy: para realizar cálculos numéricos.
+Matplotlib: para visualizar la red y los resultados de la propagación de señales.

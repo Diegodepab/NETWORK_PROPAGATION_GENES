@@ -1,4 +1,15 @@
 # **Propagación de Redes en Bioinformática**
+Este archivo Jupyter Notebook explica teóricamente la implementación del algoritmo **DIAMOnD** (Disease Module Detection) y muestra cómo aplicarlo en una tarea específica de bioinformática. El objetivo es identificar módulos de genes altamente interactuantes, utilizando tres genes iniciales (**ENO1**, **PGK1** y **HK2**) y propagando sus interacciones para obtener un listado de 30 genes adicionales con las mayores conexiones en una red construida a partir de datos de **STRING**.
+
+En el ejemplo, la red se genera y analiza usando estos tres genes como semillas, obteniendo finalmente los genes que muestran mayor interacción en relación con ellos.
+
+## Paquetes de Python utilizados
+
+- **Pandas**: para la manipulación y análisis de datos tabulares.
+- **NetworkX**: para construir y analizar redes de interacción.
+- **NumPy**: para cálculos numéricos y manejo de matrices.
+- **Matplotlib**: para la visualización de la red y los resultados de la propagación de señales.
+
 
 ## **Introducción**
 
